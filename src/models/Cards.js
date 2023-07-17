@@ -11,10 +11,10 @@ const cardSchema = new Schema({
         type: Number,
     },
     cpf: {
-        type: String,
+        type: Number,
     },
     dateOfBirth: {
-        type: Number,
+        type: Date,
     },
     fullName: {
         type: String,
@@ -29,7 +29,7 @@ const cardSchema = new Schema({
         type: String,
     },
     expirationDate: {
-        type: String,
+        type: Number,
     }
 
 }, { timestamps: true })
